@@ -1,28 +1,83 @@
+body {
+   margin: 0% auto;
+   background-color: #F6FAF9;
+}
+
 .inline-block {
    display: inline-block;
-   vertical-align: top;
+   vertical-align: center;
+   padding: 3px 10px 0px 20px;
 }
-.Logo {
-    width:23% ;
-    padding: 1%;
-    text-align:center;
+
+.navigation {
+   width: 100%;
+   background-color:#1F2421;
 }
-.Navigation {
-    width: 73%;
-    padding: 1%;
- }
-ul.Navigation {
-    width: 50%;
-    margin-left:auto; 
- }
- .heroImg {
-    height: 600px;
-    padding: 25px;
- }
- .Content {
-    width: 500px;
-    margin: 0 auto;
- }
- footer {
-    background-color: #373738;
- }
+.logo {
+   width: 10%;
+   padding: 1%;
+   text-align: center;
+}
+nav {
+   width: 80%;
+   padding: 1%;
+   text-align: right;
+   background-color:#1F2421;
+}
+ul {
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.heroImg {
+   height: 600px;
+   padding: 50px;
+
+}
+.content {
+   width: 500px;
+   margin:0 auto;
+   text-align: center;
+}
+footer {
+   background-color: #1F2421;
+}
+
+ul {
+   display: inline-block;
+   vertical-align: center;
+   color: white
+}
+
+li {
+   padding: 20px;
+   font-family:lato;
+}
+.topmenu {
+   float: right;
+   vertical-align: center;
+}
+button {
+   padding: 10px 24px;
+   border-radius: 8px;    
+   background-color: #E3C4E0;
+   border: none;
+   font-size: 16px;
+ font-family: lato;
+}
+p {
+   font-family: lato;
+   font-size: 16px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   border-radius: 5px;
+   background-color: white;
+   padding: 3%;
+}
+
+.container {
+   font-family: lato;
+   font-size: 16px;
+}
