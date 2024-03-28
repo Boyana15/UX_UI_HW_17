@@ -38,6 +38,7 @@ ul {
    width: 500px;
    margin:0 auto;
    text-align: center;
+   line-height: 25px;
 }
 footer {
    background-color: #1F2421;
@@ -51,7 +52,7 @@ ul {
 
 li {
    padding: 20px;
-   font-family:lato;
+   font-family: Rokkitt, Sans-Serif;
 }
 .topmenu {
    float: right;
@@ -63,10 +64,10 @@ button {
    background-color: #E3C4E0;
    border: none;
    font-size: 16px;
- font-family: lato;
+ font-family: Rokkitt, Sans-Serif;
 }
 p {
-   font-family: lato;
+   font-family: Rokkitt, Sans-Serif;
    font-size: 16px;
 }
 
@@ -78,6 +79,6 @@ p {
 }
 
 .container {
-   font-family: lato;
+   font-family: Rokkitt, Sans-Serif;
    font-size: 16px;
 }
